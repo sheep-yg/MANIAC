@@ -1,0 +1,62 @@
+	@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff') format('woff');
+    font-weight: normal; font-style: normal;}
+
+    body {width:100%, height:100% !important;
+    	margin: 0 auto; font-family: 'NEXON Lv1 Gothic OTF Bold';}
+    img {display: block; position: absolute; line-height: 2px;}
+    button {font-size: 8em;
+	color: lightgray; font-family: 'NEXON Lv1 Gothic OTF Bold';}
+	.shake {animation: 0.8s shake infinite alternate; }
+	.whiteani {animation: 2s line infinite alternate; }
+
+
+	@keyframes shake { 
+	0% { transform: skewX(-15deg) rotate(-30deg); }
+	5% { transform: skewX(15deg) rotate(-13deg); }
+	10% { transform: skewX(-15deg) rotate(-13deg); }
+	15% { transform: skewX(15deg) rotate(4deg); }
+	20% { transform: skewX(0deg) rotate(-13deg) }
+	100% { transform: skewX(0deg) rotate(-13deg); } }
+
+	@keyframes line { 
+	0% { opacity: 0%;transform: skewX(-15deg) rotate(20deg);}
+	20% { opacity: 50%; transform: skewX(15deg); }
+	60% { opacity: 20%; transform: skewX(-15deg)rotate(-10deg);}
+	100% { opacity: 100%;transform: skewX(0deg);} 
+	}
+
+
+	.img10 {width: 10% !important;}
+	.img13 {width: 13% !important;}
+	.img15 {width: 15% !important;}
+	.img20 {width: 20% !important;}
+	.img30 {width: 30% !important;}
+	.img40 {width: 40% !important;}
+
+	.btnBox {width:200px; height: 100px; position: relative; top: 42%; left: 34%; z-index: 30;}
+	/*나중에 배경 색깔 없애기*/
+
+	.all {width: 100%; height: 100%;
+		background-color: white;}
+	.bg {background-color: black;}
+
+
+	.rose {bottom: 0%; right: 20%;}
+	.heart {right: 10%; top: 5%;}
+	.youre {top: 30%;left: 39%;}
+	.person {bottom: 0%; left: calc(50% - 350px);}
+	.gun {left: 4%; bottom: 17%;}
+	.tkq {left: 8%;}
+	.back {bottom: 21%; left: 7%;}
+	.weapon {bottom: 0%; left: 19%;}
+	.whiteline {height: 100%;}
+
+	.gray{bottom: 40%; left: 44%; position: absolute;z-index: 40;
+		color: white; font-size: 2em;}
+	.text {text-align: center; margin: auto; color: gray; position: absolute;top: 10%;left: 20%; z-index: 40;line-height: 22px}
+	.textBox{width: 100%; height: 100%; margin: auto;}
+	.footer {color: white; text-align: center; position: absolute;bottom: 5%; left: 41%; z-index: 50; font-size: 0.7rem;line-height: 18px; word-spacing: -0.3px;}
+
+
